@@ -43,7 +43,7 @@ export default {
     },
     increment(isCorrect) {
       if(isCorrect) {
-        this.numCurrect++
+        this.numCorrect++
       }
       this.numTotal++
     }

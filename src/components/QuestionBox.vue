@@ -58,6 +58,7 @@ export default {
         immediate: true,
         handler() {
           this.selectedIndex = null
+          this.answered = false
           this.suffleAnswers()
         }
       }
